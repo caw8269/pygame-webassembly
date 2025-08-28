@@ -1,6 +1,6 @@
 version: 2
 updates:
-  - package-ecosystem: "devcontainers"
+  - package-ecosystem: "devcontainer"
     directory: "/"
     schedule:
       interval: "weekly"
