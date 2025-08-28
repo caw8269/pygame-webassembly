@@ -1,0 +1,22 @@
+{
+    "name": "python3",
+    "image": "mcr.microsoft.com/devcontainers/python:1-3.12",
+
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": [
+                "streetsidesoftware.code-spell-checker"
+            ]
+        }
+    },
+
+    "portsAttributes": {
+        "3000": {
+            "label": "Hello remote world",
+            "onAutoForward": "notify"
+        }
+    },
+
+    "postCreateCommand": "pip3 install -r requirements.txt"
+}
